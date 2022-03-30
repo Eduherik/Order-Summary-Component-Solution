@@ -1,0 +1,72 @@
+    body {
+        background-image: url(images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-color: #d7e4ffd1;  
+        background-size: 100%;
+        font-family: Tahoma;
+        font-size: 14px;
+        text-align:center;
+    }
+    
+    .capa {
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        width: 375px;
+        padding-bottom: 25px;
+    }
+
+    .titulo {
+        font-size: 24px;
+        color: #233460;
+    }
+
+    .explicacao{
+        color: #6d6f73;
+        text-align: center;
+        font-size: 15px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .icone{
+        width: 45px;
+        height: 45px;
+        float:left;
+        padding-top: 12px;
+        padding-left: 20px;
+    }
+
+    .preco{
+        color: #9a9da3;
+        padding-left: 20px;
+    }
+
+    .plano{
+        padding-left: 20px;
+    }
+
+    .change{
+        padding-right: 15px;
+        float: right;
+        font-size: 13px;
+        padding-top: 4px;   
+        text-decoration: none;
+    }
+
+    .change a:link{
+        color: black;
+    }
+
+    .change a:visited{
+        color: black;
+    }
+
+    .change a:active{ 
+        color: #989BAC;
+    }
+
+@media (max-width:380){
+    body{
+        background-image: url(images/pattern-background-mobile.svg);
+    }
+}

@@ -1,0 +1,41 @@
+
+.quadro1{
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    width: 375px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.quadroplano{
+    background-color: #f4f5ff;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    text-align: left;
+    height: 70px;
+    width: 310px;
+}
+
+.botaocontinue{
+    background-color: #3829E2;
+    border-color:#777c885c;
+    border-radius: 10px;
+    width: 310px;
+    height: 43px;
+    color: #ffffff;
+    box-shadow: 0px 9px 8px 0px #3829e234;
+    cursor:pointer;
+}
+
+.botaocancelar{
+    color: #777c88;
+    border-style: none;
+    background: none;
+    padding-bottom: 30px;
+    font-family: Calibri;
+    font-size: 15px;
+    cursor:pointer;
+}
